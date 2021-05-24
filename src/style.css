@@ -1,0 +1,99 @@
+.bg-dark {
+    background-color: transparent !important;
+    box-shadow: var(--shd,0 0 5px rgba(0, 0, 0, 0));
+    font-family:
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 70px;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.app-img {
+    width: 300px;
+    box-shadow: var(--shd,0 0 10px rgba(0, 0, 0, 0));
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #FFD500 !important;
+    padding: 20px !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: orangered !important;
+}
+.text-orange {
+    color:#FFD500
+}
+.text-yellow {
+    color:#FFEC8F;
+}
+.list li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-icon {
+    width: 60px;
+}
+p {
+    text-align: center;
+    font-weight: 500;
+}
+.section1 {
+    height: 500px;
+    background-color: transparent !important;
+    background-attachment: fixed;
+}
+.section2 {
+    height: 800px;
+    /* background-color: #161616; */
+    background-image: url("https://static.wixstatic.com/media/1e47b2_cd5df08585b64f40a575e620ed3bf997.jpg/v1/fill/w_1349,h_716,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_cd5df08585b64f40a575e620ed3bf997.webp");
+    background-size:100vw auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section3 {
+    height: 880px;
+    background-color: rgb(255 213 0);
+}
+.section4 {
+    height: 500px;
+}
+.footer {
+    background-color:rgba(5, 5, 5, 0.849);
+    color: white;
+    align-items: center;
+    padding: 50px;
+    font-size: 15px;
+    text-align: justify;
+    position: relative;
+    right: 0;
+    left: 0;
+}
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    font-size: 16px;
+    font-family: monospace;
+    font-style: italic;
+}
+.button-action {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-custom {
+    padding-top: 66px;
+    padding-right: 0px;
+}
